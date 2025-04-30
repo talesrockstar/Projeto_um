@@ -9,8 +9,6 @@ describe('template spec', () => {
     cy.get('#year').type('2000')
     cy.get('#year').should('have.value', '2000')
     cy.get('button').click()
-    
-    
-  
   })
+  
 })
